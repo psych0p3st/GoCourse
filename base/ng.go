@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	resp, err := h.Get("https://httpbin.org/ip")
+	resp, err := h.Get("https://httpbin.org/uuid")
 	if err != nil {
 		fmt.Println("HTTP error:", err)
 		return
